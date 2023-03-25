@@ -60,14 +60,14 @@ public class module2{
 			String inputCode = sc.nextLine();
 			String[] inputs = inputCode.split(" ");
 			
-            v1 = inputs[0];
-            v2 = inputs[1];
-            if (inputs.length > 2) {
-                v3 = inputs[2];
-            }
-            if (inputs.length > 3) {
-                v4 = inputs[3];
-            }
+			v1 = inputs[0];
+			v2 = inputs[1];
+			if (inputs.length > 2) {
+			    v3 = inputs[2];
+			}
+			if (inputs.length > 3) {
+			    v4 = inputs[3];
+			}
 			
 			//opcode함수에서 연산진행후 그 값을 스택에 저장
 			if(!v4.equals(null)) {
