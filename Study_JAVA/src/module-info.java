@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author kimdonghyun
- *
- */
-module StudyJava {
-}
